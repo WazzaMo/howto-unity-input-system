@@ -108,7 +108,7 @@ by the blue arrow in the Scene View.
 rests on the plane.
 
 1. Select the Sphere in the Hierarchy panel.
-2. Edit `position` in the Inspector to be: 0, 0.5, 0
+2. Edit `position` in the Inspector to be: 0, 1, 0
 
 ![Correct sphere position](./images/1-2-4--Correct-sphere-position.jpg)
 
