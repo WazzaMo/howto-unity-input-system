@@ -136,7 +136,7 @@ Type `Character` and press ENTER.
 
 ![Type Character](./images/2-4-2--Type-Character-and-press-enter.jpg)
 
-# Congrats! You are Done
+# Congrats! Your Character is Done
 
 Your scene and character are ready.
 

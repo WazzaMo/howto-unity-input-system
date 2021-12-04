@@ -1,4 +1,4 @@
-# Create a Controller
+# Create a Character MotionInput component
 
 The code for this will be in the src folder. Snippets will be shown
 here for clarity but seeing the whole source files puts it into
@@ -190,7 +190,12 @@ We will look at adding other device types on a different page, later.
 -----------------------------
 
 
-### 4.2 Create FwdBwd Action
+### 4.2 Create PlayerActions action map
+
+The action map can be used to link Actions (events) with types of
+input, being device and device properties, and mapping the input
+as a button event or a vector value. Generally, one is needed for
+one player.
 
 Click on the **+** in the left pane "ActionMaps" and call the new
 ActionMap "PlayerActions"
@@ -206,7 +211,9 @@ called `New action` and a basic set of properties in the right panel.
 
 Give the new Action the name `FwdBwd` exactly and that
 will mean input will trigger the `OnFwdBwd(..)` method in our code.
-**This is where names matter!**
+That is, this action will be the source of FwdBwd events.
+
+**This is where names, spelling and case matter!**
 
 Right-click on "New action," select Rename and call it "FwdBwd"
 
@@ -448,3 +455,7 @@ do we get?
 Also, the `Player Input` component confirms it will send actions to both...
 
 ![Player Input confirms the events will be sent to the methods](./images/03--4.B-Player-Input-confirms-Rotate-and-FwdBwd-events.jpg)
+
+The final source file is in the `src` folder.
+See: [MotionInput.cs](../src/03-create-motioninput/MotionInput.cs)
+
