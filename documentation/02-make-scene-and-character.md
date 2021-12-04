@@ -7,24 +7,24 @@ which can be a good exercise if you're newer to Unity.
 
 We will create a simple character in a blank scene
 
-## 1-1 Create a simple scene
+## 1-0 Create a simple scene
 
 The scene and character just needs to be enough to see movement
 working.
 
-### 1-1-1: Create new scene
+### 1-1: Create new scene
 
 Go to menu Assets | Create | Scene.
-![Assets menu - Create Scene](./images/1-1-1--CreateScene.jpg "Unity menu")
+![Assets menu - Create Scene](./images/1-1--CreateScene.jpg "Unity menu")
 
-### 1-1-2: Rename new scene file
+### 1-2: Rename new scene file
 
 Then give your new scene file a name in the Project panel.
 The file will appear in the current folder in the `Project` panel.
 It's a good idea to have a folder called `Scenes` and put your
 scenes there.
 
-![Rename `New Scene`](./images/1-1-2--Name-Scene-File.jpg)
+![Rename `New Scene`](./images/1-2--Name-Scene-File.jpg)
 
 Rename "New Scene" to better indicate what your scene is about.
 For this one it could be "Simple Input."
@@ -51,67 +51,93 @@ Edit position to be 0, 0, 0.
 
 ![Edit position in Inspector](./images/1-2-2--Set-Position-to-0-0-0.jpg)
 
-### 1-2-3 Create simple character objects
+### 2-0 Create simple character objects
 
 Our character will have a Sphere body and a capsule for a nose.
 The sphere will be the root game object and the capsule will be a child of the sphere.
 
-Use menu: GameObject | 3D Object | Sphere
+#### 2-1 Use menu: GameObject | 3D Object | Sphere
 
-![Add sphere](./images/1-2-3--add-sphere.jpg)
+![Add sphere](./images/2-1--add-sphere.jpg)
 
-Use menu: GameObject | 3D Object | Capsule
+#### 2-2 Use menu: GameObject | 3D Object | Capsule
 
-![Add capsule](./images/1-2-3--add-capsule.jpg)
+![Add capsule](./images/2-2--add-capsule.jpg)
 
-### 1-2-4 Make capsule into a nose.
+### 2-3 Make capsule into a nose.
+
+#### 2-3-1 Make Capsule child of Sphere
 
 In the `Hierarchy` panel, drag the *Capsule* object into the
 *Sphere* object so it becomes a child.
 
-![Make capsule child of sphere](./images/1-2-4--make-capsule-child-of-sphere.jpg)
+![Make capsule child of sphere](./images/2-3-1--make-capsule-child-of-sphere.jpg)
+
+#### 2-3-2 Scale down the Capsule
 
 With the *Capsule* still selected in the Hierarchy,
 go to the inspector and change the scale to 0.2, 0.2, 0.2
 so that the capsule is one-fifth the size of the sphere.
 
-![Use inspector to shrink capsule](./images/1-2-4--shrink-capsule-to-one-fifth.jpg)
+![Use inspector to shrink capsule](./images/2-3-2--shrink-capsule-to-one-fifth.jpg)
 
 Because the capsule is a child of the sphere, any position
 entered in the Inspector will move the capsule RELATIVE to the 
 sphere.
+
+#### 2-3-3 Make Capsule poke out of Sphere
 
 Make the capsule poke out of the sphere, that has radius 1,
 in the positive Z direction, so it becomes a nose.
 
 In the inspector, set the position to: 0, 0, 0.45
 
-![Make capsule poke out in Z](./images/1-2-4--set-capsule-to-poke-out-in-Z.jpg)
+![Make capsule poke out in Z](./images/2-3-3--set-capsule-to-poke-out-in-Z.jpg)
+
+#### 2-3-4 Rotate Capsule 90 Degrees
 
 We need to rotate the capsule so it looks like a nose.
 In the inspector, change the rotation to: 90, 0, 0
 This rotates the capsule 90 degrees in the X axis.
 
-![Rotate capsule 90 degrees](./images/1-2-4--rotate-capsule.jpg)
+![Rotate capsule 90 degrees](./images/2-3-4--rotate-capsule.jpg)
 
 Almost done, now...
 
-![Sphere position is random](./images/1-2-4--sphere-with-nose-is-half-submerged.jpg)
+### 2-4 Make Sphere the Character
+
+#### 2-4-1 Correct Sphere Position
 
 At this point, the sphere will have a random position and may
-be part submerged in the plane. We should see the capsule
+be part submerged in the plane, like this...
+
+![Sphere position is random](./images/2-4-1--sphere-with-nose-is-half-submerged.jpg)
+
+We should see the capsule
 poking out in the positive direction of the Z axis, indicated
 by the blue arrow in the Scene View.
-
-
-**The final step** is to move the sphere up so its bottom
-rests on the plane.
 
 1. Select the Sphere in the Hierarchy panel.
 2. Edit `position` in the Inspector to be: 0, 1, 0
 
-![Correct sphere position](./images/1-2-4--Correct-sphere-position.jpg)
+![Correct sphere position](./images/2-4-1--Correct-sphere-position.jpg)
 
 And now the sphere is ready to be a character and the nose shows the direction where it will go.
 
-![Sphere is ready](./images/1-2-4--Sphere-ready-as-character.jpg)
+![Sphere is ready](./images/2-4-1--Sphere-ready-as-character.jpg)
+
+#### 2-4-2 Rename Sphere to Character
+
+Using the `Hierachy` panel, with the Sphere selected (should already be), right-click and choose **Rename**
+
+![right click and choose rename](./images/2-4-2--Right-click-and-choose-rename.jpg)
+
+Type `Character` and press ENTER.
+
+![Type Character](./images/2-4-2--Type-Character-and-press-enter.jpg)
+
+# Congrats! You are Done
+
+Your scene and character are ready.
+
+[Now go to 03-create-a-controller](./03-create-a-controller.md)
