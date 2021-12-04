@@ -188,4 +188,5 @@ The final source file for `MotionController` is in the `src` folder.
 See: [MotionController.cs](../src/04-extend-motioninput-and-add-controller/MotionController.cs)
 
 
+-----------------------------------------------
 This is the end of the basic Quick Start.

@@ -25,7 +25,7 @@ in turn or on their own as best suits your needs.
 First things first, make sure the Input System package is installed
 (if not already).
 
-See [01-installation.md](./installation.md) for
+See [01-installation.md](./01-installation.md) for
 an overview and link to Unity's installation guide - that guide is OK.
 
 Then choose one of the two starting points below.
@@ -65,4 +65,5 @@ Go to [04-extend-motioninput-and-add-controller.md](./04-extend-motioninput-and-
 
 This completes the initial Quick Start and anything beyond this is an extension.
 
-
+----------------------------------------------------------------------
+**NEXT**: [Make sure Input System is installed](./01-installation.md)

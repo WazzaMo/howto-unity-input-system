@@ -459,3 +459,6 @@ Also, the `Player Input` component confirms it will send actions to both...
 The final source file is in the `src` folder.
 See: [MotionInput.cs](../src/03-create-motioninput/MotionInput.cs)
 
+----------------------------------------------------------------------
+
+**NEXT**:  [Add MotionController and move the character](./04-extend-motioninput-and-add-controller.md)

@@ -9,3 +9,10 @@ Actually, this is where the Unity documentation is OK.
 The details of this are well described in the Unity Input System manual (the best bit of the manual so far).
 
 See [Unity Documentation - Input System Package - Installation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/index.html)
+
+
+---------------------------------------------------------------
+
+**NEXT**: [Make a scene and character if you don't have one](./02-make-scene-and-character.md)
+
+**OR**: [Get C# events from Input Actions](./03-create-a-character-motioninput-component.md)

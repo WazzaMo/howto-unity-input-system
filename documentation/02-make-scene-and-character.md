@@ -140,4 +140,6 @@ Type `Character` and press ENTER.
 
 Your scene and character are ready.
 
-[Now go to 03-create-a-controller](./03-create-a-controller.md)
+----------------------------------------------------------------------
+
+**NEXT**: [Get Action events in C# code and debug it](./03-create-a-character-motioninput-component.md)
