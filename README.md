@@ -24,8 +24,11 @@ This is a step-by-step guide to go from zero to running with
 information on the way to help you extend and evolve your
 range of controls.
 
-The `documentation` folder has the guide.
-The `src` folder has related example source code.
+The `documentation` folder has the guide. See [Getting Started](./documentation/00-getting-started.md)
+
+The `src` folder has related example source code that is developed in the step-by-step instructions.
+
+-------------------------------------------------
 
 ## Recognition of Unity Trademarks
 

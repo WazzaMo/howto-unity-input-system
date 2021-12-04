@@ -271,9 +271,9 @@ So there are two steps to getting a useful Up binding:
 Click on the **+** pull-down menu at the right end of the row where
 `FwdBwd` Action - it has a `+` sign and a pull-down menu chevron.
 Select "Add 2D Composite Binding" from that menu and then give
-the binding the name "WD Keys."
+the binding the name "WS Keys."
 
-![Add 2D composite binding](./images/03--4.5-3-add-WD-binding.jpg)
+![Add 2D composite binding](./images/03--4.5-3-add-WS-binding.jpg)
 
 4. Define Up binding key
 
@@ -296,10 +296,10 @@ And now choose `w` key....
 
 ![use Path to select key](./images/03--4.5-4-Select-w-key.jpg)
 
-When done correctly, we see the `FwdBwd` Action has a `WD Keys`
+When done correctly, we see the `FwdBwd` Action has a `WS Keys`
 composite with Up bound to "w" from keyboard, like this:
 
-![w key bound](./images/03--4.4-w-key-defined.jpg)
+![w key bound](./images/03--4.5-w-key-defined.jpg)
 
 -----------------------------
 
@@ -311,7 +311,7 @@ key options.
 
 ![setting Down binding](./images/03--4.6-Setting-down-binding.jpg)
 
-Now the `FwdBwd` action should have a WD Keys composite with
+Now the `FwdBwd` action should have a `WS Keys` composite with
 2 configured bindings and 2 undefined - this is as-designed.
 
 ![Up and Down defined](./images/03--4.6--up-and-down-defined.jpg)
@@ -419,13 +419,13 @@ the action to a Vector2 Value Action / Control type.
 
 2. Call the new composite `AD Keys` to represent the left/right values
 
-3. Select the `Up: ` binding
+3. Select the `Left: ` binding
 
 4. Click on `Path` property and select the `a` key binding.
 
 ![Select 'A' key binding](./images/03--4.A-map-a-key-binding.jpg)
 
-5. Select the `Down: ` binding
+5. Select the `Right: ` binding
 
 6. Click on the `Path` property and select `d` key binding
 
