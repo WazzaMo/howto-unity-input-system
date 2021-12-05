@@ -30,6 +30,11 @@ The `src` folder has related example source code that is developed in the step-b
 
 -------------------------------------------------
 
+Documentation (and errors) written by Warwick Molloy (c) Copyright 2021.
+Licensed under the BSD 2-Clause License; Attribution appreciated.
+
+-------------------------------------------------
+
 ## Recognition of Unity Trademarks
 
-"Unity", Unity logos, and other Unity trademarks are trademarks or registered trademarks of Unity Technologies or its affiliates in the U.S. and elsewhere (more info here).
+"Unity", Unity logos, and other Unity trademarks are trademarks or registered trademarks of Unity Technologies or its affiliates. See [https://unity.com/](https://unity.com/) for details.
