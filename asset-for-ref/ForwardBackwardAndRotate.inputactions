@@ -1,0 +1,152 @@
+{
+    "name": "ForwardBackwardAndRotate",
+    "maps": [
+        {
+            "name": "PlayerActions",
+            "id": "9ba3bd94-46b8-4d1d-a916-68766da54054",
+            "actions": [
+                {
+                    "name": "FwdBwd",
+                    "type": "Value",
+                    "id": "e91a36e3-a15c-4ee5-ae4b-7f7abd92fa99",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "01fca551-2d98-47e9-b21e-504159500c17",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WS Keys",
+                    "id": "a3751513-0723-40c4-857c-d328c15cee95",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FwdBwd",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "1e569b68-6288-4494-aaa4-548adfb00602",
+                    "path": "<Keyboard>/#(w)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardOnly",
+                    "action": "FwdBwd",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "d423e426-f4e1-468f-8666-86bab7560b45",
+                    "path": "<Keyboard>/#(s)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardOnly",
+                    "action": "FwdBwd",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "741aa454-e60a-4784-8a2b-accaaaab549a",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardOnly",
+                    "action": "FwdBwd",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "06f9543b-9ac9-41bc-b1c9-3badd8991c21",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardOnly",
+                    "action": "FwdBwd",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "AD Keys",
+                    "id": "f2f49d15-2646-4dce-8fd1-5b4960a6a5ac",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "08393b32-c8d2-4ff2-88be-6044fd72bf8e",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardOnly",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "d414eaa0-b334-4df6-a456-c023595c83f3",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardOnly",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "5612856a-3e49-42e0-b33b-d4a36a958dac",
+                    "path": "<Keyboard>/#(a)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardOnly",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "3c88eaa5-d941-4990-8151-a80f55f502d0",
+                    "path": "<Keyboard>/#(d)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardOnly",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KeyboardOnly",
+            "bindingGroup": "KeyboardOnly",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

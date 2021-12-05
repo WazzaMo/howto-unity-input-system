@@ -188,5 +188,9 @@ The final source file for `MotionController` is in the `src` folder.
 See: [MotionController.cs](../src/04-extend-motioninput-and-add-controller/MotionController.cs)
 
 
------------------------------------------------
-This is the end of the basic Quick Start.
+
+This is the end of the basic Quick Start. Consider youself STARTED.
+
+----------------------------------------------------------------------
+
+**NEXT**:  [Add Arrow Key mappings and test again.](./05-adding-arrow-keys.md)
